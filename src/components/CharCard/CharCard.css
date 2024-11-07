@@ -1,0 +1,27 @@
+#card{
+   width: 40vw;
+   height : 25vh;
+   display: flex; 
+   color: rgb(158, 158, 158);
+   background-color: rgb(60, 62, 68);
+   margin-top: 2em;
+   margin-left: 2em;
+   margin-right: 2em;
+   border-radius: 1em;
+}
+
+#card h2, h3, h4{
+    color : white;
+}
+
+img{
+    border-bottom-left-radius:1em ;
+    border-top-left-radius: 1em;
+}
+
+#charInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 1em;
+}

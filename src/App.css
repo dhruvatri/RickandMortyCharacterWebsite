@@ -1,0 +1,60 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#mainScreen{
+  background-color: rgb(39, 43, 51);
+  width: 100vw;
+  padding: 2em 0em;
+}
+
+#mainScreen h1{
+  color : white;
+  text-align: center;
+  font-size: 2.5em;
+}
+
+#charDisplay{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: space-around;
+  justify-content: center;
+  
+}
+
+#btnSection {
+  display: flex;
+  justify-content: center;
+  margin-top: 1em;
+}
+
+.moveBtn{
+  width : 30vw;
+  height : 7vh;
+  margin: 0.5em 2em;
+  background-color: rgb(60, 62, 68);
+  border-radius: 2em;
+  border : 0.1em solid white;
+  color : white;
+  font-size: 1.5em;
+}
+
+.moveBtn:disabled {
+  background-color: #ccc; /* Light grey */
+  color: #666; /* Dark grey */
+  cursor: not-allowed; /* Shows a "not allowed" cursor */
+  opacity: 0.6; /* Makes it appear semi-transparent */
+}
+
+#loading-screen{
+  background-color: black;
+  color : white;
+  font-size: 20vh;
+  width: 100vw;
+  height : 10vh;
+  text-align: center;
+  text-justify: center;
+}
